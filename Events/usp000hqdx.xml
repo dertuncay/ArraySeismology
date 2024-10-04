@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns:ns0="http://anss.org/xmlns/catalog/0.1">
+  <eventParameters publicID="smi:local/49eb2581-3dd0-4d80-8116-9ef3d49b9d40">
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000hqdx&amp;format=quakeml" ns0:datasource="us" ns0:eventsource="us" ns0:eventid="p000hqdx">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/usp000hqdx/us/1415324582992/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/usp000hqdx/us/1415324582992/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>52 km ENE of Kandrian, Papua New Guinea</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2022-05-02T22:31:39.552000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/usp000hqdx/us/1415324582992/product.xml" ns0:datasource="us" ns0:dataid="usp000hqdx" ns0:eventsource="us" ns0:eventid="p000hqdx">
+        <time>
+          <value>2010-12-02T03:12:09.820000Z</value>
+        </time>
+        <latitude>
+          <value>-6.001</value>
+        </latitude>
+        <longitude>
+          <value>149.977</value>
+        </longitude>
+        <depth>
+          <value>33000.0</value>
+          <uncertainty>0.0</uncertainty>
+        </depth>
+        <quality>
+          <usedStationCount>306</usedStationCount>
+          <standardError>1.15</standardError>
+          <azimuthalGap>18.5</azimuthalGap>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>US</agencyID>
+          <creationTime>2014-11-07T01:43:02.992000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>0.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/usp000hqdx/us/1415324582992/product.xml#magnitude" ns0:datasource="us" ns0:dataid="usp000hqdx" ns0:eventsource="us" ns0:eventid="p000hqdx">
+        <mag>
+          <value>6.6</value>
+        </mag>
+        <type>mwb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/usp000hqdx/us/1415324582992/product.xml</originID>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>US</agencyID>
+          <creationTime>2014-11-07T01:43:02.992000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+  </eventParameters>
+</q:quakeml>

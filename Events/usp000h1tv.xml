@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns:ns0="http://anss.org/xmlns/catalog/0.1">
+  <eventParameters publicID="smi:local/16653ea7-62e7-4218-a0fc-9faa5e371a09">
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000h1tv&amp;format=quakeml" ns0:datasource="us" ns0:eventsource="us" ns0:eventid="p000h1tv">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/usp000h1tv/us/1415324384553/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/usp000h1tv/us/1415324384553/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>236 km WSW of La Cruz de Loreto, Mexico</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2022-07-15T18:06:34.557000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/usp000h1tv/us/1415324384553/product.xml" ns0:datasource="us" ns0:dataid="usp000h1tv" ns0:eventsource="us" ns0:eventid="p000h1tv">
+        <time>
+          <value>2009-09-24T07:16:20.260000Z</value>
+        </time>
+        <latitude>
+          <value>18.829</value>
+        </latitude>
+        <longitude>
+          <value>-107.339</value>
+        </longitude>
+        <depth>
+          <value>13000.0</value>
+          <uncertainty>0.0</uncertainty>
+        </depth>
+        <quality>
+          <usedStationCount>375</usedStationCount>
+          <standardError>1.33</standardError>
+          <azimuthalGap>73.0</azimuthalGap>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>US</agencyID>
+          <creationTime>2014-11-07T01:39:44.553000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>0.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/usp000h1tv/us/1415324384553/product.xml#magnitude" ns0:datasource="us" ns0:dataid="usp000h1tv" ns0:eventsource="us" ns0:eventid="p000h1tv">
+        <mag>
+          <value>6.4</value>
+        </mag>
+        <type>mwc</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/usp000h1tv/us/1415324384553/product.xml</originID>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>GCMT</agencyID>
+          <creationTime>2014-11-07T01:39:44.553000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+  </eventParameters>
+</q:quakeml>
