@@ -1,1 +1,5 @@
-![Iberia Network](https://github.com/dertuncay/ArraySeismology/IB.png?raw=true)
+![Iberia Network](IB.png?raw=true)
+IB network
+
+![Iberia Network](map.png?raw=true)
+Selected Events
