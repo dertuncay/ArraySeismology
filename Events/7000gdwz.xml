@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns:ns0="http://anss.org/xmlns/catalog/0.1">
+  <eventParameters publicID="smi:local/10337681-8a3b-4266-9c88-4d6ece636769">
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000gdwz&amp;format=quakeml" ns0:datasource="us" ns0:eventsource="us" ns0:eventid="7000gdwz">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us7000gdwz/us/1648834825040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us7000gdwz/us/1648834825040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>27 km SSE of Saiki, Japan</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2023-02-10T15:51:03.910000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us7000gdwz/us/1648834825040/product.xml" ns0:datasource="us" ns0:dataid="us7000gdwz" ns0:eventsource="us" ns0:eventid="7000gdwz">
+        <time>
+          <value>2022-01-21T16:08:37.210000Z</value>
+        </time>
+        <latitude>
+          <value>32.7282</value>
+        </latitude>
+        <longitude>
+          <value>132.0386</value>
+        </longitude>
+        <depth>
+          <value>39000.0</value>
+          <uncertainty>1900.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>160</usedPhaseCount>
+          <standardError>1.11</standardError>
+          <azimuthalGap>25.0</azimuthalGap>
+          <minimumDistance>1.813</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2022-04-01T17:40:25.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>5800.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us7000gdwz/us/1648834825040/product.xml#magnitude" ns0:datasource="us" ns0:dataid="us7000gdwz" ns0:eventsource="us" ns0:eventid="7000gdwz">
+        <mag>
+          <value>6.3</value>
+          <uncertainty>0.073</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us7000gdwz/us/1648834825040/product.xml</originID>
+        <stationCount>18</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2022-04-01T17:40:25.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+  </eventParameters>
+</q:quakeml>

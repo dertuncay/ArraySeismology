@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns:ns0="http://anss.org/xmlns/catalog/0.1">
+  <eventParameters publicID="smi:local/e5d550e9-974b-453e-86fa-cd8abca3f63d">
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000gdgn&amp;format=quakeml" ns0:datasource="us" ns0:eventsource="us" ns0:eventid="6000gdgn">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000gdgn/us/1646152659040/product.xml</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000gdgn/us/1646152659040/product.xml#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>Prince Edward Islands region</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2022-03-01T16:37:39.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000gdgn/us/1646152659040/product.xml" ns0:datasource="us" ns0:dataid="us6000gdgn" ns0:eventsource="us" ns0:eventid="6000gdgn">
+        <time>
+          <value>2021-12-18T20:05:45.111000Z</value>
+        </time>
+        <latitude>
+          <value>-47.1259</value>
+        </latitude>
+        <longitude>
+          <value>33.5085</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1700.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>178</usedPhaseCount>
+          <standardError>0.56</standardError>
+          <azimuthalGap>30.0</azimuthalGap>
+          <minimumDistance>12.604</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2022-03-01T16:37:39.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>9500.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000gdgn/us/1646152659040/product.xml#magnitude" ns0:datasource="us" ns0:dataid="us6000gdgn" ns0:eventsource="us" ns0:eventid="6000gdgn">
+        <mag>
+          <value>6.0</value>
+          <uncertainty>0.058</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000gdgn/us/1646152659040/product.xml</originID>
+        <stationCount>29</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2022-03-01T16:37:39.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+  </eventParameters>
+</q:quakeml>
